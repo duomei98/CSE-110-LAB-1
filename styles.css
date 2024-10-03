@@ -21,13 +21,15 @@ body, html {
 .sec {
 	display: inline-block;
 	padding: 14px 20px;
-	scroll-margin-top: 144px;
+	margin:0;
+	scroll-margin-top: 174px;
 }
 .grid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 25px;
 	padding-bottom: 16px;
+	width:100%;
 }
 .box {
 	background-color: #182b49;
@@ -72,15 +74,12 @@ p {
 	font-size: 28px;
 }
 form {
-	width: 500px;
 	padding-bottom: 16px;
+	width: 100%;
 }
 label {
 	font-size: 20px;
 }
-
-
-
 @media screen and (max-width: 800px)  {
 	li a {
 		display: none;
